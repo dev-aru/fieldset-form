@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>fieldset</title>
+ <style>
+      body{
+          background-image: linear-gradient(purple, lightgreen,pink,grey);
+      }
+ </style>
+    </head>
+    <body>
+               <fieldset>
+                   <legend>Your details</legend>
+               <table>
+                     <tr>
+                           <td>1.name-</td>
+                        <td><input type="text" placeholder="First and Last name"></td>
+                     </tr>
+                     <tr>
+                         <td>2.Email-id-:</td>
+                         <td><input type="text" placeholder="example@domain.com"></td>
+                        </tr>
+                        <tr>
+                            <td>3.phone-:</td>
+                            <td><input type="number" placeholder="eg-+4478562436"></td>
+                        </tr>
+               </table>    
+               </fieldset>
+               <fieldset>
+                   <legend>Delivery address</legend>
+                   <table>
+                       <tr>
+                           <td>1.Address-:</td>
+                           <td><textarea></textarea></td>
+                       </tr>
+                       <tr>
+                           <td>2.Post code-:</td>
+                    <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>3.country-:</td>
+                        <td><input type="text"></td>
+                        </tr>
+                   </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Card details</legend>
+                    <table>
+                         <tr>
+                             <td>1.</td>
+                             <td><fieldset>
+                                 <legend>Card type</legend>
+                                 <table>
+                                       <td>1.<input type="radio">VISA</td>
+                                       <tr><td>2.<input type="radio">AmEx</td></tr>
+                                       <tr><td>3.<input type="radio">Mastercard</td></tr>
+                                 </table>
+                             </fieldset></td>
+                         </tr>
+                         <tr>
+                             <td>2.Card number-:</td>
+                              <td><input type="number"></td>                       
+                            </tr>
+                            <tr>
+                                <td>3.Security-:</td>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr>
+                                <td>3.Name on card-:</td>
+                                <td><input type="text" placeholder="exact name as on the card"></td>
+                            </tr>
+                    </table>
+                </fieldset>
+            </table>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td><input type="Submit" placeholder="Buy it"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </table>
+    </form>
+    </body>
+</html>
